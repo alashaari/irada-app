@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تمت الموافقة</title>
+    <style>
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            text-align: center; 
+            padding: 0;
+            margin: 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 40px;
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            max-width: 400px;
+        }
+        .success { 
+            font-size: 28px; 
+            font-weight: bold;
+            margin-bottom: 20px;
+            animation: fadeIn 1s ease-in-out;
+        }
+        .subtitle {
+            font-size: 16px;
+            opacity: 0.9;
+            margin-bottom: 20px;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+        .loading {
+            font-size: 14px;
+            opacity: 0.7;
+            animation: fadeIn 2s ease-in-out;
+        }
+        @keyframes fadeIn {
+            0% { opacity: 0; transform: scale(0.8); }
+            100% { opacity: 1; transform: scale(1); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="success">✅ تمت الموافقة على الشراكة بنجاح!</div>
+        <div class="subtitle">تم إضافتك كشريك في تطبيق إرادة</div>
+        <div class="loading">جاري تحديث التطبيق...</div>
+    </div>
+    <script>
+        // إرسال طلب الموافقة للتطبيق
+        function sendApprovalRequest() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const requestId = urlParams.get('requestId');
+            const action = urlParams.get('action') || 'approve';
+            
+            if (requestId) {
+                // إرسال طلب إلى Firebase Functions الحقيقي
+                fetch(`https://your-project.vercel.app/approvePartner?requestId=${requestId}&action=${action}`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    }
+                })
+                .then(response => {
+                    console.log('Approval request sent:', response.status);
+                    if (response.ok) {
+                        document.querySelector('.loading').textContent = '✅ تم تحديث التطبيق بنجاح!';
+                    } else {
+                        document.querySelector('.loading').textContent = '❌ فشل في تحديث التطبيق';
+                    }
+                })
+                .catch(error => {
+                    console.error('Error sending approval:', error);
+                    document.querySelector('.loading').textContent = '❌ خطأ في الاتصال';
+                });
+            }
+        }
+        
+        // تشغيل الطلب عند تحميل الصفحة
+        sendApprovalRequest();
+        
+        // إغلاق الصفحة بعد 3 ثوان
+        setTimeout(() => {
+            window.close();
+        }, 3000);
+    </script>
+</body>
+</html>
+

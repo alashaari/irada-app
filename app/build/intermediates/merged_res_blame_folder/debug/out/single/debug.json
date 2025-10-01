@@ -1,0 +1,98 @@
+[
+    {
+        "merged": "com.irada.blockerheroar.app-merged_res-78:/xml_device_admin.xml.flat",
+        "source": "com.irada.blockerheroar.app-main-80:/xml/device_admin.xml"
+    },
+    {
+        "merged": "com.irada.blockerheroar.app-merged_res-78:/drawable_ic_exit_to_app.xml.flat",
+        "source": "com.irada.blockerheroar.app-main-80:/drawable/ic_exit_to_app.xml"
+    },
+    {
+        "merged": "com.irada.blockerheroar.app-merged_res-78:/xml_data_extraction_rules.xml.flat",
+        "source": "com.irada.blockerheroar.app-main-80:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.irada.blockerheroar.app-merged_res-78:/drawable_ic_person.xml.flat",
+        "source": "com.irada.blockerheroar.app-main-80:/drawable/ic_person.xml"
+    },
+    {
+        "merged": "com.irada.blockerheroar.app-merged_res-78:/drawable_ic_info.xml.flat",
+        "source": "com.irada.blockerheroar.app-main-80:/drawable/ic_info.xml"
+    },
+    {
+        "merged": "com.irada.blockerheroar.app-merged_res-78:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.irada.blockerheroar.app-main-80:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.irada.blockerheroar.app-merged_res-78:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.irada.blockerheroar.app-main-80:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.irada.blockerheroar.app-merged_res-78:/drawable_button_exit_background.xml.flat",
+        "source": "com.irada.blockerheroar.app-main-80:/drawable/button_exit_background.xml"
+    },
+    {
+        "merged": "com.irada.blockerheroar.app-merged_res-78:/xml_accessibility_service_config.xml.flat",
+        "source": "com.irada.blockerheroar.app-main-80:/xml/accessibility_service_config.xml"
+    },
+    {
+        "merged": "com.irada.blockerheroar.app-merged_res-78:/drawable_ic_add.xml.flat",
+        "source": "com.irada.blockerheroar.app-main-80:/drawable/ic_add.xml"
+    },
+    {
+        "merged": "com.irada.blockerheroar.app-merged_res-78:/drawable_ic_block.xml.flat",
+        "source": "com.irada.blockerheroar.app-main-80:/drawable/ic_block.xml"
+    },
+    {
+        "merged": "com.irada.blockerheroar.app-merged_res-78:/xml_backup_rules.xml.flat",
+        "source": "com.irada.blockerheroar.app-main-80:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.irada.blockerheroar.app-merged_res-78:/drawable_ic_chevron_right.xml.flat",
+        "source": "com.irada.blockerheroar.app-main-80:/drawable/ic_chevron_right.xml"
+    },
+    {
+        "merged": "com.irada.blockerheroar.app-merged_res-78:/drawable_ic_support.xml.flat",
+        "source": "com.irada.blockerheroar.app-main-80:/drawable/ic_support.xml"
+    },
+    {
+        "merged": "com.irada.blockerheroar.app-merged_res-78:/drawable_ic_home.xml.flat",
+        "source": "com.irada.blockerheroar.app-main-80:/drawable/ic_home.xml"
+    },
+    {
+        "merged": "com.irada.blockerheroar.app-merged_res-78:/layout_activity_blocking_screen.xml.flat",
+        "source": "com.irada.blockerheroar.app-main-80:/layout/activity_blocking_screen.xml"
+    },
+    {
+        "merged": "com.irada.blockerheroar.app-merged_res-78:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.irada.blockerheroar.app-main-80:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.irada.blockerheroar.app-merged_res-78:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.irada.blockerheroar.app-main-80:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.irada.blockerheroar.app-merged_res-78:/drawable_ic_delete.xml.flat",
+        "source": "com.irada.blockerheroar.app-main-80:/drawable/ic_delete.xml"
+    },
+    {
+        "merged": "com.irada.blockerheroar.app-merged_res-78:/drawable_ic_email.xml.flat",
+        "source": "com.irada.blockerheroar.app-main-80:/drawable/ic_email.xml"
+    },
+    {
+        "merged": "com.irada.blockerheroar.app-merged_res-78:/drawable_ic_star.xml.flat",
+        "source": "com.irada.blockerheroar.app-main-80:/drawable/ic_star.xml"
+    },
+    {
+        "merged": "com.irada.blockerheroar.app-merged_res-78:/drawable_ic_settings.xml.flat",
+        "source": "com.irada.blockerheroar.app-main-80:/drawable/ic_settings.xml"
+    },
+    {
+        "merged": "com.irada.blockerheroar.app-merged_res-78:/drawable_ic_check_circle.xml.flat",
+        "source": "com.irada.blockerheroar.app-main-80:/drawable/ic_check_circle.xml"
+    },
+    {
+        "merged": "com.irada.blockerheroar.app-merged_res-78:/drawable_ic_language.xml.flat",
+        "source": "com.irada.blockerheroar.app-main-80:/drawable/ic_language.xml"
+    }
+]

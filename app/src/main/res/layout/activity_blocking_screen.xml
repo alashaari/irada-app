@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/blocking_background"
+    android:padding="32dp">
+
+    <!-- Block Icon -->
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="32dp"
+        android:src="@drawable/ic_block"
+        android:contentDescription="Blocked Content Icon" />
+
+    <!-- Blocking Message -->
+    <TextView
+        android:id="@+id/blocking_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="تم حظر هذا المحتوى"
+        android:textColor="@color/blocking_text"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Subtitle -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="هذا المحتوى محظور بواسطة تطبيق Irada"
+        android:textColor="@color/blocking_text"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:alpha="0.8"
+        android:layout_marginBottom="48dp" />
+
+    <!-- Exit Button -->
+    <Button
+        android:id="@+id/exit_button"
+        android:layout_width="200dp"
+        android:layout_height="56dp"
+        android:text="الخروج من التطبيق"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:background="@drawable/button_exit_background"
+        android:textColor="@android:color/white"
+        android:elevation="8dp" />
+
+</LinearLayout>

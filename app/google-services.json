@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "617022662241",
+    "project_id": "testmz-1e293",
+    "storage_bucket": "testmz-1e293.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:617022662241:android:a27fb0ad9a342a32482c20",
+        "android_client_info": {
+          "package_name": "com.irada.blockerheroar"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHYECIHfvehfCDjo2vx6uEQdPYGqUnpwU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:617022662241:android:065682f06f4a00bb482c20",
+        "android_client_info": {
+          "package_name": "com.irada.blockerheroar"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHYECIHfvehfCDjo2vx6uEQdPYGqUnpwU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

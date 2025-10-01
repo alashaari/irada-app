@@ -1,0 +1,16 @@
+{
+  "name": "irada-functions",
+  "version": "1.0.0",
+  "description": "Firebase Functions for Irada App",
+  "main": "functions/index.js",
+  "scripts": {
+    "start": "node functions/index.js"
+  },
+  "dependencies": {
+    "firebase-functions": "^4.5.0",
+    "firebase-admin": "^11.11.0"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}

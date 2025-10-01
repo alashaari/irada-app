@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- Primary Colors -->
+    <color name="primary">#FF2196F3</color>
+    <color name="primary_dark">#FF1976D2</color>
+    <color name="primary_light">#FFBBDEFB</color>
+    
+    <!-- Secondary Colors -->
+    <color name="secondary">#FF03DAC6</color>
+    <color name="secondary_dark">#FF018786</color>
+    <color name="secondary_light">#FFB2DFDB</color>
+    
+    <!-- Accent Colors -->
+    <color name="accent">#FFFF5722</color>
+    <color name="accent_dark">#FFE64A19</color>
+    <color name="accent_light">#FFFFCCBC</color>
+    
+    <!-- Status Colors -->
+    <color name="success">#FF4CAF50</color>
+    <color name="warning">#FFFF9800</color>
+    <color name="error">#FFF44336</color>
+    <color name="info">#FF2196F3</color>
+    
+    <!-- Background Colors -->
+    <color name="background">#FFFFFF</color>
+    <color name="surface">#FFFFFFFF</color>
+    <color name="surface_variant">#FFF3F3F3</color>
+    
+    <!-- Text Colors -->
+    <color name="on_primary">#FFFFFFFF</color>
+    <color name="on_secondary">#FF000000</color>
+    <color name="on_background">#FF212121</color>
+    <color name="on_surface">#FF212121</color>
+    <color name="on_surface_variant">#FF757575</color>
+    
+    <!-- Material3 Container Colors -->
+    <color name="primary_container">#FFE3F2FD</color>
+    <color name="on_primary_container">#FF0D47A1</color>
+    <color name="secondary_container">#FFE0F2F1</color>
+    <color name="on_secondary_container">#FF004D40</color>
+    <color name="tertiary">#FF9C27B0</color>
+    <color name="on_tertiary">#FFFFFFFF</color>
+    <color name="tertiary_container">#FFF3E5F5</color>
+    <color name="on_tertiary_container">#FF4A148C</color>
+    <color name="on_error">#FFFFFFFF</color>
+    <color name="error_container">#FFFFEBEE</color>
+    <color name="on_error_container">#FFB71C1C</color>
+    <color name="outline">#FF757575</color>
+    <color name="outline_variant">#FFBDBDBD</color>
+    <color name="scrim">#FF000000</color>
+    <color name="inverse_surface">#FF212121</color>
+    <color name="inverse_on_surface">#FFFFFFFF</color>
+    <color name="inverse_primary">#FF90CAF9</color>
+    
+    <!-- Premium Colors -->
+    <color name="premium_gold">#FFFFD700</color>
+    <color name="premium_gold_dark">#FFB8860B</color>
+    
+    <!-- Blocking Screen Colors -->
+    <color name="blocking_background">#FF000000</color>
+    <color name="blocking_text">#FFFFFFFF</color>
+    <color name="blocking_overlay">#80000000</color>
+    
+    <!-- Partner Colors -->
+    <color name="partner_approve">#FF4CAF50</color>
+    <color name="partner_reject">#FFF44336</color>
+    
+    <!-- Charity Color -->
+    <color name="charity_blue">#FF2196F3</color>
+</resources>

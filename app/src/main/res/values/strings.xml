@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">إرادة</string>
+    
+    <!-- Navigation -->
+    <string name="nav_home">الرئيسية</string>
+    <string name="nav_blocked_list">قائمة الحظر</string>
+    <string name="nav_settings">الإعدادات</string>
+    
+    <!-- Authentication -->
+    <string name="login_title">تسجيل الدخول</string>
+    <string name="email">البريد الإلكتروني</string>
+    <string name="password">كلمة المرور</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="register">إنشاء حساب</string>
+    <string name="google_sign_in">تسجيل الدخول بجوجل</string>
+    <string name="forgot_password">نسيت كلمة المرور؟</string>
+    
+    <!-- Permission Request Screen -->
+    <string name="welcome_title">مرحباً بك في Irada</string>
+    <string name="permission_intro">لضمان عمل التطبيق بشكل صحيح، نحتاج إلى بعض الصلاحيات:</string>
+    <string name="internet_access">الوصول للإنترنت</string>
+    <string name="internet_description">للاتصال بـ Firebase والتحديثات</string>
+    <string name="notifications">الإشعارات</string>
+    <string name="notifications_description">لإرسال التنبيهات والتحذيرات</string>
+    <string name="storage">التخزين</string>
+    <string name="storage_description">لحفظ الإعدادات وسجلات الحظر</string>
+    <string name="accessibility">إمكانية الوصول</string>
+    <string name="accessibility_description">لمراقبة التطبيقات وحظر المحتوى</string>
+    <string name="grant_permissions">منح الصلاحيات</string>
+    <string name="skip_now">تخطي الآن</string>
+    <string name="permission_note">يمكنك تغيير هذه الصلاحيات لاحقاً من إعدادات التطبيق</string>
+    
+    <!-- Feature Descriptions -->
+    <string name="block_pornographic_content_desc">هذه الخاصية تقوم بحظر المواقع الإباحية على جهازك</string>
+    <string name="block_youtube_shorts_desc">هذه الخاصية تحظر المقاطع القصيرة في تطبيق اليوتيوب</string>
+    <string name="block_snapchat_stories_desc">هذه الخاصية تحظر المقاطع القصيرة في تطبيق السناب شات</string>
+    <string name="block_instagram_explore_desc">هذه الخاصية تحظر الاكسبلور في الانستقرام</string>
+    <string name="block_telegram_search_desc">هذه الخاصية تحظر البحث في التليغرام</string>
+    <string name="blocking_message_desc">رسالة تظهر في شاشة الحظر</string>
+    <string name="prevent_app_deletion_desc">هذه الخاصية تمنعك من حذف التطبيق. تحتاج إلى إعطاء صلاحية مشرف التطبيق</string>
+    <string name="partner_email_desc">هذه الخاصية تسمح لك بإضافة شريك لإرسال له طلبات لإلغاء تفعيل الخصائص</string>
+    <string name="block_new_apps_desc">هذه الخاصية تحظر التطبيقات المثبتة حديثاً بشكل تلقائي</string>
+    <string name="prevent_factory_reset_desc">هذه الخاصية تمنعك من إعادة ضبط جهازك</string>
+    
+    <!-- Blocked List Screen -->
+    <string name="add_content">إضافة</string>
+    <string name="no_blocked_content">لا يوجد محتوى محظور</string>
+    <string name="content_type_keyword">كلمة مفتاحية</string>
+    <string name="content_type_website">موقع</string>
+    <string name="content_type_app">تطبيق</string>
+    <string name="partner_request">طلب شريك</string>
+    <string name="keyword_label">الكلمة المفتاحية</string>
+    <string name="website_label">رابط الموقع</string>
+    <string name="app_label">اسم التطبيق</string>
+    
+    <!-- Settings Screen -->
+    <string name="not_specified">غير محدد</string>
+    <string name="app_preferences">تفضيلات التطبيق</string>
+    <string name="app_info">معلومات التطبيق</string>
+    <string name="account">الحساب</string>
+    <string name="rate_us_desc">قيمنا على جوجل بلاي</string>
+    <string name="logout_desc">تسجيل الخروج من الحساب</string>
+    <string name="subscription_premium">مشترك - وصول كامل</string>
+    <string name="subscription_free">مجاني - وصول محدود</string>
+    <string name="subscription_developer">مطور - وصول كامل</string>
+    
+    <!-- Sample Data -->
+    <string name="sample_inappropriate_content">محتوى غير لائق</string>
+    <string name="sample_unwanted_app">تطبيق غير مرغوب</string>
+    
+    <!-- Content Blocking -->
+    <string name="content_blocking_title">حظر المحتوى</string>
+    <string name="block_pornographic_content">حظر المحتوى الإباحي</string>
+    <string name="block_youtube_shorts">حظر ريلز اليوتيوب</string>
+    <string name="block_snapchat_stories">حظر ريلز السناب شات</string>
+    <string name="block_instagram_explore">حظر اكسبلور الانستقرام</string>
+    <string name="block_telegram_search">حظر بحث التليغرام</string>
+    
+    <!-- Blocking Screen -->
+    <string name="blocking_screen_title">ضبط شاشة الحظر</string>
+    <string name="blocking_message">رسالة شاشة الحظر</string>
+    <string name="blocking_duration">مدة بقاء شاشة الحظر</string>
+    <string name="default_blocking_message">هذا المحتوى محظور</string>
+    
+    <!-- App Protection -->
+    <string name="app_protection_title">حماية التطبيق</string>
+    <string name="prevent_app_deletion">منع حذف التطبيق</string>
+    <string name="protection_duration">مدة الحماية</string>
+    <string name="days_remaining">أيام متبقية</string>
+    
+    <!-- Partner System -->
+    <string name="partner_title">إضافة شريك</string>
+    <string name="partner_email">أدخل إيميل الشريك</string>
+    <string name="add_partner">إضافة شريك</string>
+    <string name="send_request_to_partner">إرسال طلب للشريك</string>
+    
+    <!-- Advanced Features -->
+    <string name="advanced_features_title">الخصائص المتطورة</string>
+    <string name="block_new_apps">حظر التطبيقات المثبتة حديثاً</string>
+    <string name="prevent_factory_reset">حظر عمل فورمات للجهاز</string>
+    
+    <!-- Premium Subscription -->
+    <string name="subscribe">اشترك</string>
+    <string name="premium_features">مميزات البريميوم</string>
+    <string name="full_access">وصول كامل لمميزات التطبيق</string>
+    <string name="custom_content_blocking">إمكانية حظر محتوى مخصص في التطبيقات</string>
+    <string name="unlimited_blocking">حظر عدد لا محدود من الكلمات/المواقع والتطبيقات</string>
+    <string name="app_deletion_prevention">خاصية منع حذف التطبيق</string>
+    <string name="new_apps_blocking">حظر التطبيقات المحملة حديثاً</string>
+    <string name="subscription_price">9.99 ريال شهرياً</string>
+    <string name="charity_support">20% من قيمة الاشتراك تذهب لدعم المحتاجين عبر الجمعيات الخيرية، شكراً لدعمكم 💙</string>
+    
+    <!-- Blocked List -->
+    <string name="blocked_keywords">الكلمات المحظورة</string>
+    <string name="blocked_websites">المواقع المحظورة</string>
+    <string name="blocked_apps">التطبيقات المحظورة</string>
+    <string name="add_keyword">إضافة كلمة مفتاحية</string>
+    <string name="add_website">إضافة موقع</string>
+    <string name="add_app">إضافة تطبيق</string>
+    
+    <!-- Settings -->
+    <string name="user_info">معلومات المستخدم</string>
+    <string name="user_name">الاسم</string>
+    <string name="user_email">البريد الإلكتروني</string>
+    <string name="subscription_status">حالة الاشتراك</string>
+    <string name="app_version">إصدار التطبيق</string>
+    <string name="technical_support">الدعم الفني</string>
+    <string name="rate_us">قيمنا على جوجل بلاي</string>
+    <string name="logout">تسجيل الخروج</string>
+    
+    <!-- Common -->
+    <string name="on">مفعل</string>
+    <string name="off">معطل</string>
+    <string name="free">مجاني</string>
+    <string name="premium">مدفوع</string>
+    <string name="language">اللغة</string>
+    <string name="arabic">العربية</string>
+    <string name="english">الإنجليزية</string>
+    <string name="ok">موافق</string>
+    <string name="cancel">إلغاء</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="save">حفظ</string>
+    <string name="delete">حذف</string>
+    <string name="edit">تعديل</string>
+    <string name="loading">جاري التحميل...</string>
+    <string name="error">خطأ</string>
+    <string name="success">نجح</string>
+    
+    <!-- Permissions -->
+    <string name="permission_required">صلاحية مطلوبة</string>
+    <string name="device_admin_permission">صلاحية مشرف الجهاز</string>
+    <string name="accessibility_permission">صلاحية خدمة الوصولية</string>
+    <string name="usage_stats_permission">صلاحية إحصائيات الاستخدام</string>
+    <string name="grant_permission">منح الصلاحية</string>
+    <string name="permission_explanation">هذه الصلاحية مطلوبة لتفعيل هذه الخاصية</string>
+    
+    <!-- Partner Request -->
+    <string name="partner_request_title">طلب من الشريك</string>
+    <string name="partner_request_message">المستخدم يطلب منك الموافقة على إلغاء تفعيل هذه الخاصية</string>
+    <string name="approve">موافق</string>
+    <string name="reject">غير موافق</string>
+    
+    <!-- Error Messages -->
+    <string name="error_login_failed">فشل في تسجيل الدخول</string>
+    <string name="error_network">خطأ في الاتصال بالإنترنت</string>
+    <string name="error_permission_denied">تم رفض الصلاحية</string>
+    <string name="error_subscription_failed">فشل في الاشتراك</string>
+    
+    <!-- Success Messages -->
+    <string name="success_login">تم تسجيل الدخول بنجاح</string>
+    <string name="success_subscription">تم الاشتراك بنجاح</string>
+    <string name="success_partner_added">تم إضافة الشريك بنجاح</string>
+    
+    <!-- Accessibility Service (UPDATED) -->
+    <string name="accessibility_service_description">خدمة Irada لحظر المحتوى والتحكم في استخدام التطبيقات. هذه الخدمة تراقب النشاط في التطبيقات لحظر المحتوى غير المرغوب فيه مثل YouTube Shorts والمحتوى الإباحي.</string>
+    
+    
+    <!-- Default Web Client ID for Google Sign-In -->
+    <string name="default_web_client_id">617022662241-your-web-client-id.apps.googleusercontent.com</string>
+    
+</resources>
